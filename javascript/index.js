@@ -7,6 +7,14 @@ console.log("First Student:", students[0]);
 // Display the last student
 // We use .length - 1 to dynamically find the last index
 console.log("Last Student:", students[students.length - 1]);
+
+// Add a new student
+students.push("Ethan");
+console.log("After push:", students);
+
+// Remove the last student (Ethan)
+students.pop();
+console.log("After pop:", students);
 // Create the school object
 let school = {
   name: "Greenwood Academy",
